@@ -1,0 +1,173 @@
+/*colour palette website - https://colorhunt.co/palette/164242  */
+/*                                       General CSS                                          */
+body {
+  background-color: #fab696;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+hr {
+  color: #2d334a;
+  width: 5%;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+/*conversion formula - 16px=1em=100% */
+/*                                                Top container                              */
+.top-container {
+  background-color: #fbe3b9;
+  height: 490px;
+  color: #2d334a;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 380px;
+  top: 210px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 40px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  left: 390px;
+}
+
+h1 {
+  margin-top: 0;
+  position: absolute;
+  top: 90px;
+  left: 535px;
+  font-family: 'Sacramento', cursive;
+  font-size: 500%;
+}
+
+.sub-heading {
+  margin-top: 0;
+  position: absolute;
+  top: 185px;
+  left: 585px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+/*                                                  Profile                                       */
+.profile-pic {
+  margin-top: 30px;
+}
+
+/*                                                       Skills                                       */
+.skills {
+  text-align: left;
+  position: relative;
+}
+
+.skills-heading {
+  position: absolute;
+  left: 250px;
+  top: 0;
+}
+
+.skill-text {
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
+
+.skill-img {
+  height: 150px;
+  width: 150px;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  margin: 20px;
+}
+
+/*                                                            Freelance                            */
+.freelance {
+  margin: 50px auto;
+  text-align: left;
+  position: relative;
+}
+
+.freelance-heading {
+  position: absolute;
+  top: 160px;
+  right: 200px;
+}
+
+.flreelance-text {
+  position: relative;
+  top: 260px;
+  left: 550px;
+  display: inline;
+}
+
+.freelance-img {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin: 20px;
+  padding-top: 140px;
+  padding-right: 20px;
+}
+
+.button {
+  color: rgb(255, 255, 230);
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 0 -1px 0px rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  background: rgb(12, 148, 99);
+  background: -moz-linear-gradient(69deg, rgb(12, 148, 99) 51%, rgb(12, 180, 90) 59%);
+  background: -webkit-linear-gradient(69deg, rgb(12, 148, 99) 51%, rgb(12, 180, 90) 59%);
+  background: -o-linear-gradient(69deg, rgb(12, 148, 99) 51%, rgb(12, 180, 90) 59%);
+  background: -ms-linear-gradient(69deg, rgb(12, 148, 99) 51%, rgb(12, 180, 90) 59%);
+  background: linear-gradient(339deg, rgb(12, 148, 99) 51%, rgb(12, 180, 90) 59%);
+  -webkit-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  position: relative;
+  top: 330px;
+  left: 0;
+  margin-left: 220px;
+}
+
+/*                                                 Footer                             */
+.bottom-container {
+  background-color: #2d334a;
+  margin-top: 350px;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+}
